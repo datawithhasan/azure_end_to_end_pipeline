@@ -1,0 +1,13 @@
+{
+	"name": "JsonFileForNameAndRelativeURL",
+	"properties": {
+		"description": "It will link to a json file where all the data file names and relative url are listed, so that for each loop can read the names and links from this file",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/datawithhasan/azure_end_to_end_pipeline/refs/heads/main/src/datafile_names_and_relative_urls.json",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
