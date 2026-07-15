@@ -1,0 +1,15 @@
+{
+	"name": "bikes-datafactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ee18e224-60ef-4aad-8631-abf50f4895b6",
+		"tenantId": "d71f47b8-f81d-4514-ab45-a436f27d62d3"
+	}
+}
