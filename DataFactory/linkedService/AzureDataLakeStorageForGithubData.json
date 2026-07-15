@@ -1,0 +1,13 @@
+{
+	"name": "AzureDataLakeStorageForGithubData",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "All the data will be loaded in ADLS via this linked service",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://bikesdata.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDBERjlDMTM2LUZBMUUtNEQwRi05RjYxLThGMjZCMzE0QUZDOV83YjQ5Y2EwNy01MjczLTRhY2ItOTE0OS1kZWJjNDdjZDhhNTYiDQp9"
+		}
+	}
+}
