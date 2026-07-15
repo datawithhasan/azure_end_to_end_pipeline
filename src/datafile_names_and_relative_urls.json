@@ -1,26 +1,32 @@
 [
     {
         "relative_url": "datawithhasan/azure_end_to_end_pipeline/refs/heads/main/datasets/source_crm/cust_info.csv",
-        "file_name": "cust_info.csv"
+        "file_name": "cust_info.csv",
+        "sink_folder": "source_crm"
     },
     {
         "relative_url": "datawithhasan/azure_end_to_end_pipeline/refs/heads/main/datasets/source_crm/prd_info.csv",
-        "file_name": "prd_info.csv"
+        "file_name": "prd_info.csv",
+        "sink_folder": "source_crm"
     },
     {
         "relative_url": "datawithhasan/azure_end_to_end_pipeline/refs/heads/main/datasets/source_crm/sales_details.csv",
-        "file_name": "sales_details.csv"
+        "file_name": "sales_details.csv",
+        "sink_folder": "source_crm"
     },
     {
         "relative_url": "datawithhasan/azure_end_to_end_pipeline/refs/heads/main/datasets/source_erp/CUST_AZ12.csv",
-        "file_name": "CUST_AZ12.csv"
+        "file_name": "CUST_AZ12.csv",
+        "sink_folder": "source_erp"
     },  
     {
         "relative_url": "datawithhasan/azure_end_to_end_pipeline/refs/heads/main/datasets/source_erp/LOC_A101.csv",
-        "file_name": "LOC_A101.csv"
+        "file_name": "LOC_A101.csv",
+        "sink_folder": "source_erp"
     },
     {
         "relative_url": "datawithhasan/azure_end_to_end_pipeline/refs/heads/main/datasets/source_erp/PX_CAT_G1V2.csv",
-        "file_name": "PX_CAT_G1V2.csv"
+        "file_name": "PX_CAT_G1V2.csv",
+        "sink_folder": "source_erp"
     }
 ]
