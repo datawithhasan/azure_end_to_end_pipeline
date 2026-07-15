@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "bikes-datafactory"
+		},
+		"AzureDataLakeStorageForGithubData_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorageForGithubData_properties_typeProperties_url": {
+			"value": "https://bikesdata.dfs.core.windows.net/"
+		},
+		"JsonFileForNameAndRelativeURL_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/datawithhasan/azure_end_to_end_pipeline/refs/heads/main/src/datafile_names_and_relative_urls.json"
+		},
+		"SourceForGithubServer_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		}
+	}
+}
