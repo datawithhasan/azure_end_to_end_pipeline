@@ -1,0 +1,17 @@
+{
+	"name": "datafile_names_and_relative_urls",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "JsonFileForNameAndRelativeURL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}
