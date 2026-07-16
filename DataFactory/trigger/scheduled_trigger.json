@@ -3,7 +3,7 @@
 	"properties": {
 		"description": "This trigger will automatically run the pipeline at my scheduled time.",
 		"annotations": [],
-		"runtimeState": "Stopped",
+		"runtimeState": "Started",
 		"pipelines": [
 			{
 				"pipelineReference": {
@@ -17,7 +17,7 @@
 			"recurrence": {
 				"frequency": "Hour",
 				"interval": 12,
-				"startTime": "2026-07-16T12:30:00",
+				"startTime": "2026-07-16T12:35:00",
 				"timeZone": "GMT Standard Time"
 			}
 		}
