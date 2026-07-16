@@ -1,0 +1,25 @@
+{
+	"name": "scheduled_trigger",
+	"properties": {
+		"description": "This trigger will automatically run the pipeline at my scheduled time.",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "GithubToADLS",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 12,
+				"startTime": "2026-07-15T12:05:00",
+				"timeZone": "GMT Standard Time"
+			}
+		}
+	}
+}
