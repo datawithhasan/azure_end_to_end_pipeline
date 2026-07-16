@@ -401,7 +401,7 @@
 					"recurrence": {
 						"frequency": "Hour",
 						"interval": 12,
-						"startTime": "2026-07-15T12:05:00",
+						"startTime": "2026-07-16T12:30:00",
 						"timeZone": "GMT Standard Time"
 					}
 				}
